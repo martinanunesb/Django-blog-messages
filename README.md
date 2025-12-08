@@ -1,25 +1,71 @@
-# Blog da Martina 
+# Blog da Martina
 
-Este repositório contém a versão final do blog desenvolvido no curso de Python da Coderhouse (módulo Django).
+Aplicação web estilo blog desenvolvida com **Django** como projeto final do curso de Python da **Coderhouse**.  
+O foco é praticar autenticação, perfis de usuário, CRUD de páginas e troca de mensagens entre usuários.
 
-## Funcionalidades
-- Cadastro e login de usuários
-- Envio de mensagens entre usuários
-- Caixa de entrada e de saída
-- Interface web simples e funcional
+## Funcionalidades principais
 
-## Tecnologias utilizadas
-- Python 3.13
-- Django 5.2
-- HTML5 / CSS3 básico
+- **Home** com visão geral do site.
+- Página **“Sobre mim”** com informações da autora.
+- Seção de **páginas/posts**:
+  - listagem de páginas com botão **“Leia mais”**;
+  - detalhe de cada página;
+  - mensagem de aviso quando não há páginas ou resultados de busca.
+- **CRUD de páginas** (criar, editar e excluir) disponível apenas para usuários logados.
+- **Autenticação de usuários**:
+  - registro, login e logout;
+  - app dedicado para contas/usuários.
+- **Perfil de usuário**:
+  - nome, sobrenome, e-mail, avatar, biografia e outros dados editáveis;
+  - opção de alterar senha.
+- **Sistema de mensagens privadas**:
+  - envio de mensagens entre usuários;
+  - caixa de entrada e de saída.
+
+## Navegação
+
+Principais seções disponíveis pelo menu:
+
+- **Home**
+- **Sobre mim**
+- **Páginas** (lista e detalhe dos posts)
+- **Mensagens** (inbox / outbox / nova mensagem)
+- **Perfil**
+- **Login / Logout / Registrar**
+
+## Stack utilizada
+
+- **Python 3**
+- **Django**
+- HTML / CSS
+- Banco de dados **SQLite** (ambiente de desenvolvimento)
 
 ## Como rodar o projeto localmente
 
+Pré-requisitos:  
+Python 3 instalado e `git` configurado.
+
 ```bash
+# Clonar o repositório
 git clone https://github.com/martinanunesb/blogmartina.git
 cd blogmartina
-python -m venv venv
-venv\Scripts\activate  # no Windows
+
+# Criar ambiente virtual
+python -m venv .venv
+
+# Ativar o ambiente virtual
+# No Windows:
+.venv\Scripts\activate
+
+# No macOS / Linux:
+source .venv/bin/activate
+
+# Instalar dependências
 pip install -r requirements.txt
+
+# Aplicar migrações
 python manage.py migrate
+
+# Rodar o servidor de desenvolvimento
 python manage.py runserver
+
