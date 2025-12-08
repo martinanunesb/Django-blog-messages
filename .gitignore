@@ -1,0 +1,30 @@
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Banco de dados (Django)
+db.sqlite3
+*.sqlite3
+
+# Arquivos de mídia e estáticos gerados
+/media/
+staticfiles/
+static/
+
+# Config de IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
