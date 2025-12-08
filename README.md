@@ -1,6 +1,6 @@
 # Blog da Martina
 
-Aplicação web estilo blog desenvolvida com **Django** como projeto final do curso de Python da **Coderhouse**.  
+Aplicação web estilo blog desenvolvida com **Django** como **Projeto Final do Curso de Python da Coderhouse**.  
 O foco é praticar autenticação, perfis de usuário, CRUD de páginas e troca de mensagens entre usuários.
 
 ## Funcionalidades principais
