@@ -40,6 +40,15 @@ Principais seções disponíveis pelo menu:
 - HTML / CSS
 - Banco de dados **SQLite** (ambiente de desenvolvimento)
 
+  ## Aprendizados principais
+
+- Organização de um projeto Django em múltiplos apps (contas, páginas, mensagens).
+- Implementação de autenticação e autorização (login, logout, cadastro de usuários).
+- CRUD completo de páginas com templates, herança e mensagens de feedback.
+- Criação de um sistema simples de mensagens privadas entre usuários.
+- Uso de SQLite e migrações do Django para estruturar o banco de dados.
+
+
 ## Como rodar o projeto localmente
 
 Pré-requisitos:  
