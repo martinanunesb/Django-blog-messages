@@ -40,7 +40,7 @@ Principais seções disponíveis pelo menu:
 - HTML / CSS
 - Banco de dados **SQLite** (ambiente de desenvolvimento)
 
-  ## Aprendizados principais
+## Aprendizados principais
 
 - Organização de um projeto Django em múltiplos apps (contas, páginas, mensagens).
 - Implementação de autenticação e autorização (login, logout, cadastro de usuários).
